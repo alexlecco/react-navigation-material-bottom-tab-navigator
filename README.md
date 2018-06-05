@@ -7,7 +7,7 @@ Bottom Navigation component following [Material design guidelines](https://mater
 Open a Terminal in your project's folder and run,
 
 ```sh
-yarn add react-navigation-material-bottom-tabs
+yarn add react-navigation-material-bottom-tab-navigator
 ```
 
 If you're on a vanilla React Native project, you also need to install and link [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons).
@@ -30,7 +30,7 @@ If you use CRNA or Expo, you don't need to install vector icons. But you will ne
 ## Usage
 
 ```js
-import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs';
+import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tab-navigator';
 
 export default createMaterialBottomTabNavigator({
   Album: { screen: Album },
@@ -45,6 +45,6 @@ export default createMaterialBottomTabNavigator({
 
 For more info, see: https://github.com/react-navigation/react-navigation-tabs
 
-## Docs
+## Documentation
 
 Documentation can be found on the [React Navigation website](https://reactnavigation.org/docs/material-bottom-tab-navigator.html).
